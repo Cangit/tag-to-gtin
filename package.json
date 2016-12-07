@@ -1,0 +1,17 @@
+{
+  "name": "tag-to-gtin",
+  "version": "1.0.0",
+  "description": "Tag to Gtin/ean",
+  "main": "tag-gtin.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-epc": ">=0.1.1"
+  },
+  "author": "Fredric Endrerud",
+  "license": "UNLICENSED"
+}
