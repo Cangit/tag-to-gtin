@@ -7,16 +7,17 @@ Basic example
 -----
 
 ```js
-const rfidGtin = require('./rfid-gtin');
+const rfidGtin = require('./rfid-gtin')
 
 
-rfidGtin.tagToGtin('3035E8BF60548AED2276206E', function(gtin){
-  console.log('gtin: ' + gtin);
-});
+rfidGtin.tagToGtin('3035E8BF60548AED2276206E', function (gtin) {
+  console.log('gtin: ' + gtin)
+  // gtin: 8007640865718
+})
 ```
 
 ### Methods
 
-#### tagToGtin( tagStr, callback )
+#### tagToGtin (tagStr, callback)
 
-#### modulus10( num )
+#### mod10control (num)

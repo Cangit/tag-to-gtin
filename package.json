@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "node-epc": ">=0.1.1"
+    "node-epc": ">=0.1.1 <1.0.0"
   },
   "author": "Fredric Endrerud",
   "license": "UNLICENSED"
