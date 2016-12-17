@@ -14,7 +14,6 @@ const RFID_GTIN = class {
       checksum += calc
     }
 
-    console.log('checksum ', checksum)
     const controlNumber = (10 - (checksum % 10)) % 10
 
     return controlNumber
