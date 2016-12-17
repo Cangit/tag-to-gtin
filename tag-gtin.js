@@ -1,5 +1,3 @@
-"use strict"
-
 const epc = require('node-epc')
 
 const RFID_GTIN = class {
@@ -38,4 +36,4 @@ const RFID_GTIN = class {
 }
 
 const rfidGtin = new RFID_GTIN()
-module.exports = rfidGtin
+export default rfidGtin
