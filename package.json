@@ -1,10 +1,14 @@
 {
   "name": "tag-to-gtin",
   "version": "1.0.0",
-  "description": "Tag to Gtin/ean",
+  "description": "Tag to gtin/ean",
   "main": "tag-gtin.js",
   "engines": {
     "node": ">=4.0.0"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/anno-1337/tag-to-gtin.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
