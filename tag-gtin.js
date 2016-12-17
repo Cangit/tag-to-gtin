@@ -1,3 +1,4 @@
+"use strict"
 
 const epc = require('node-epc')
 
