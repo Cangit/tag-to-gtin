@@ -1,5 +1,6 @@
-import rfidGtin from '../tag-gtin.js';
+// import rfidGtin from '../tag-gtin.js';
 
+const rfidGtin = require('../tag-gtin.js');
 const assert = require('assert');
 
 describe('Tag-gtin', () => {

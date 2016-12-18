@@ -6,6 +6,9 @@ const RFID_GTIN = class {
     let calc
     let checksum = 0
     const r = [2, 1]
+    if(typeof num === 'number') {
+        num = num.toString()
+    }
 
     for (var i = num.length - 1; i--;) {
       calc = num.charAt(i) * r[i % r.length]
@@ -36,4 +39,4 @@ const RFID_GTIN = class {
 }
 
 const rfidGtin = new RFID_GTIN()
-export default rfidGtin
+module.exports = rfidGtin

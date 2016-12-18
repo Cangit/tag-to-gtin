@@ -11,7 +11,8 @@
     "url": "https://github.com/anno-1337/tag-to-gtin.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:watch": "mocha watch"
   },
   "dependencies": {
     "node-epc": ">=0.1.1 <1.0.0"
