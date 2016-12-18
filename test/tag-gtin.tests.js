@@ -22,8 +22,14 @@ describe('Tag-gtin', () => {
     });
 
     describe('tagToGtin', () => {
-        //todo: write a relevant test here can
-        it('shall do something', () => {
-        });
-    });
+        describe('should create gtin tag when feeded with rfid tag', () => {
+            it('tag string', (done) => {
+                rfidGtin.tagToGtin('3035E8BF60548AED2276206E', function (gtin) {
+                  const expected = '8007640865718'
+                  if (expected === gtin) done()
+                  else done(new Error('expected: ' + expected + ', got: ' + gtin))
+                })
+            })
+        })
+    })
 });
