@@ -20,4 +20,10 @@ describe('Tag-gtin', () => {
         });
 
     });
+
+    describe('tagToGtin', () => {
+        //todo: write a relevant test here can
+        it('shall do something', () => {
+        });
+    });
 });
