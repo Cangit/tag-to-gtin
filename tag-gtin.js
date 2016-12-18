@@ -3,8 +3,8 @@ const epc = require('node-epc')
 const RFID_GTIN = class {
 
   mod10control (num) {
-    let calc
-    let checksum = 0
+    var calc
+    var checksum = 0
     const r = [2, 1]
     if(typeof num === 'number') {
         num = num.toString()
