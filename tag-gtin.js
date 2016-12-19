@@ -23,7 +23,7 @@ const RFID_GTIN = class {
 
   tagToGtin (rfidHex, callback) {
     const _this = this
-    epc.getParser('SGTIN').then(function (sgtin) {
+    epc.getParser('sgtin').then(function (sgtin) {
       sgtin.parse(rfidHex).then(function (parsed) {
         const id = parsed.parts.ItemReference.substring(1, 6)
         const tag = parsed.parts.CompanyPrefix + id
